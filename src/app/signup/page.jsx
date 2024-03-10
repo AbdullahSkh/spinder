@@ -1,8 +1,8 @@
 "use client"
 
 import React, { useState } from 'react'
-import { Input } from '../components/Input';
-import { Label } from '../components/Label';
+import Input from '../components/Input';
+import Label from '../components/Label';
 import { cn } from "../utils/cn"
 
 const SignUp = () => {
@@ -112,4 +112,4 @@ const InputLabel = ({ children,
         </div>
     );
 }
-export default SignUp
+export default SignUp;

@@ -4,8 +4,8 @@ import { WavyBackground } from "./components/ui/Wavybackground";
 
 export default function Home() {
   return (
-    <div className='bg-background2'>
-      SEARCH
+    <div className="flex flex-row">
+
       <Navbar />
       <Searchbar />
 
