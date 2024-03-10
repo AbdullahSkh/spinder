@@ -4,7 +4,7 @@ import Searchbar from "../components/Searchbar";
 
 function Home() {
     return (
-        <div className='flex'>
+        <div className='flex flex-row gap-10'>
             <div>
                 <Navbar />
             </div>

@@ -16,10 +16,15 @@ const Searchbar = () => {
         setActiveSearch(words.filter(w => w.includes(e.target.value)).slice(0, 8))
     }
     return (
-        <form className='flex w-[400px] relative justify-center'>
-            <div className="relative">
-                <input type="search" placeholder='Type Here' className='w-full p-4 rounded-full bg-yellow-400' onChange={(e) => handleSearch(e)} />
-                <button className='absolute right-1 top-1/2 -translate-y-1/2 p-4 bg-gray-100 rounded-full'>
+        <form className='w-[400px] relative ml-80 justify-center items-center'>
+            <div className="relative w-full">
+                <input
+                    type="search"
+                    placeholder="Type Here"
+                    className="w-full p-4 pr-16 rounded-full bg-gray-200"
+                    onChange={(e) => handleSearch(e)}
+                />
+                <button className="absolute top-1/2 transform -translate-y-1/2 right-0 mr-4 p-4 bg-gray-100 rounded-full">
                     <AiOutlineSearch />
                 </button>
             </div>
